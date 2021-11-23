@@ -1,0 +1,12 @@
+@import "./modules/variables.scss";
+@import "./modules/functions.scss";
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/header__title.scss";
+
+$one: 16;
+
+.sidebar {
+  float: left;
+  margin-left: pow(4, 3) * 1px;
+  margin-right: divide($one, 2) * 1px;
+}

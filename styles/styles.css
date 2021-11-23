@@ -1,0 +1,16 @@
+.header {
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.header__title {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 64px;
+}
+
+.sidebar {
+  float: left;
+  margin-left: 64px;
+  margin-right: 8px;
+} /*# sourceMappingURL=styles.css.map */
