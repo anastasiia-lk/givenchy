@@ -1,4 +1,16 @@
 .header {
   color: $primaryColor;
   font-family: $fontFamily;
+
+  &__title {
+    font-family: $fontFamily;
+    color: $primaryColor;
+    font-size: $baseFontSize * 4px;
+  }
+
+  &__content {
+    font-family: $fontFamily;
+    color: $primaryColor;
+    font-size: $baseFontSize * 4px;
+  }
 }
