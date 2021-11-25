@@ -1,0 +1,14 @@
+.header__button {
+  width: 350px;
+  height: 48px;
+  background: $primaryColor;
+  border: 0.5px solid $primaryColor;
+  box-sizing: border-box;
+  padding: 12px 24px;
+  font-weight: $fontWeightMedium;
+  font-size: $baseFontSize * 1px;
+  line-height: $baseLineHeight * 6px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $secondaryColor;
+}

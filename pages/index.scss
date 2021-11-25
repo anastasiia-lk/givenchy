@@ -1,0 +1,19 @@
+@import "../vendor/normalize";
+@import "../vendor/fonts";
+
+@import "../blocks/variables.scss";
+@import "../blocks/functions.scss";
+@import "../blocks/mixins.scss";
+
+@import "../blocks/page/page.scss";
+@import "../blocks/page/__block/page__block.scss";
+
+@import "../blocks/header/header.scss";
+@import "../blocks/header/__block/header__block.scss";
+@import "../blocks/header/__title-block/header__title-block.scss";
+@import "../blocks/header/__title/header__title.scss";
+@import "../blocks/header/__button/header__button.scss";
+
+@import "../blocks/menu/menu.scss";
+@import "../blocks/menu/__title/menu__title.scss";
+@import "../blocks/menu/__icon/menu__icon.scss";

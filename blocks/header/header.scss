@@ -1,0 +1,58 @@
+.header {
+  // color: $primaryColor;
+  // font-family: $fontFamily;
+
+  // &__title {
+  //   font-family: $fontFamily;
+  //   color: $primaryColor;
+  //   font-size: $baseFontSize * 4px;
+  // }
+
+  // &__content {
+  //   font-family: $fontFamily;
+  //   color: $primaryColor;
+  //   font-size: $baseFontSize * 4px;
+  // }
+  display: flex;
+  justify-content: center;
+  min-height: 900px;
+  background-color: $fourthColor;
+  background-image: url(../images/brown-outfit.svg);
+  background-repeat: no-repeat;
+  // background-size: 700px 934px;
+  background-position: left top;
+
+  // &__block {
+  //   width: 1400px;
+  // }
+
+  // &__title-block {
+  //   width: 700px;
+  //   margin: 242px 0 0 auto;
+  // }
+
+  // &__title {
+  //   font-weight: $fontWeightMedium;
+  //   font-size: $baseFontSize * 3px;
+  //   line-height: $baseLineHeight * 16px;
+  //   letter-spacing: 0.04em;
+  //   text-transform: uppercase;
+  //   color: $primaryColor;
+  //   margin: 0 0 32px 0;
+  // }
+
+  // &__button {
+  //   width: 350px;
+  //   height: 48px;
+  //   background: $primaryColor;
+  //   border: 0.5px solid $primaryColor;
+  //   box-sizing: border-box;
+  //   padding: 12px 24px;
+  //   font-weight: $fontWeightMedium;
+  //   font-size: $baseFontSize * 1px;
+  //   line-height: $baseLineHeight * 6px;
+  //   letter-spacing: 0.02em;
+  //   text-transform: uppercase;
+  //   color: $secondaryColor;
+  // }
+}
