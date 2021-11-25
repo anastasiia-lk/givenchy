@@ -451,6 +451,29 @@ template {
   margin: 0 auto;
 }
 
+.looks__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #0a0a0a;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .looks__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .looks__title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 350px);
