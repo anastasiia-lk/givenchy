@@ -1,9 +1,15 @@
 @import "../vendor/normalize.css";
+@import "../vendor/fonts.css";
 @import "./modules/variables.scss";
 @import "./modules/functions.scss";
 @import "./modules/mixins.scss";
+
+@import "./modules/blocks/page/page.scss";
+
 @import "./modules/blocks/header/header.scss";
 @import "./modules/blocks/header/header__title.scss";
+
+@import "./modules/blocks/menu/menu.scss";
 
 $one: 16;
 

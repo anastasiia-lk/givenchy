@@ -1,4 +1,6 @@
+@charset "UTF-8";
 @import "../vendor/normalize.css";
+@import "../vendor/fonts.css";
 .icon-mail {
   background-image: url("/icons/mail.svg");
   position: absolute;
@@ -27,19 +29,70 @@
   height: 128px;
 }
 
+.page {
+  min-width: 320px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1440px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1440px отцентрировали весь контент */
+  font-family: "Promt", Arial, sans-serif;
+  font-style: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  color: #0a0a0a;
+}
+.page__block {
+  margin: 0 auto;
+}
+
 .header {
-  color: #000;
-  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 900px;
+  background-color: #e7e7e2;
+  background-image: url(../images/brown-outfit.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.header__block {
+  width: 1400px;
+}
+.header__title-block {
+  width: 700px;
+  margin: 242px 0 0 auto;
 }
 .header__title {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #000;
-  font-size: 64px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #0a0a0a;
 }
-.header__content {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #000;
-  font-size: 64px;
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.menu__title {
+  margin-left: 20px;
+}
+.menu__icon {
+  width: 48px;
+  height: 48px;
+}
+.menu__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #0a0a0a;
+  margin: 0 0 0 20px;
 }
 
 .sidebar {
@@ -62,4 +115,4 @@
 }
 .link::after {
   content: "";
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

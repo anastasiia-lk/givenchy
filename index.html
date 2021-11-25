@@ -11,22 +11,22 @@
 
 <body class="page">
   <header class="header">
-    <div class="header__block">
+    <div class="header__block page__block">
       <div class="menu">
         <img class="menu__icon" alt="бежевый костюм" src="./images/menu.svg" />
         <p class="menu__title">MENU</p>
       </div>
-      <img class="header__image" alt="бежевый костюм" src="./images/brown-outfit.svg" />
-      <h1 class="header__title">GIVENCHY
-        SPRING SUMMER 2021
-        BY MATTHEW M. WILLIAMS
-      </h1>
-      <button class="header__button">Subscribe to collection’s news</button>
+      <div class="header__title-block">
+        <h1 class="header__title">GIVENCHY<br />SPRING&nbsp;SUMMER&nbsp;2021<br />BY&nbsp;MATTHEW&nbsp;M.&nbsp;WILLIAMS
+        </h1>
+        <button class="header__button">Subscribe to collection’s news</button>
+      </div>
     </div>
+  </header>
   </header>
   <main class="content"></main>
   <section class="about">
-    <div class="about__block">
+    <div class="page__block">
       <div class="about__wrapper">
         <h2 class="about__title">ABOUT</h2>
         <p class="about__paragraph_font_small">The Spring-Summer ‘21 collection explores Givenchy in the form of a
@@ -76,7 +76,7 @@
     </div>
   </section>
   <section class=" looks">
-    <div class="looks__block">
+    <div class="page__block">
       <h2 class="looks__title">LOOKS</h2>
       <div class="gallery">
         <figure class="gallery__item">
@@ -107,24 +107,26 @@
     </div>
   </section>
   <section class="looks">
-    <div class="looks__block">
+    <div class="page__block">
     </div>
   </section>
   <footer class="footer">
-    <h2 class="footer__title">Subscribe to the newsletterand be the first to know about new collection’s drop date and
-      news</h2>
-    <form name="footer-form" class="form">
-      <fieldset class="form__input-container">
-        <label for="email" class="form__label"></label>
-        <input type="text" class="form__item" id="email" name="email" placeholder="Enter your email here" required>
-        <button class="form__button-submit" type="submit">Submit</button>
-        <input type="checkbox" checked>
-        <p class="form__context">I consent to the processing of my data by GIVENCHY in accordance with the conditions
-          set
-          forth in the Privacy Policy</p>
-      </fieldset>
-    </form>
-    <p class="footer__subtitle">© 2021, Givenchy. Some rights reserved</p>
+    <div class="page__block">
+      <h2 class="footer__title">Subscribe to the newsletterand be the first to know about new collection’s drop date and
+        news</h2>
+      <form name="footer-form" class="form">
+        <fieldset class="form__input-container">
+          <label for="email" class="form__label"></label>
+          <input type="text" class="form__item" id="email" name="email" placeholder="Enter your email here" required>
+          <button class="form__button-submit" type="submit">Submit</button>
+          <input type="checkbox" checked>
+          <p class="form__context">I consent to the processing of my data by GIVENCHY in accordance with the conditions
+            set
+            forth in the Privacy Policy</p>
+        </fieldset>
+      </form>
+      <p class="footer__subtitle">© 2021, Givenchy. Some rights reserved</p>
+    </div>
   </footer>
   <div class="popup">
     <div class="popup__menu">
