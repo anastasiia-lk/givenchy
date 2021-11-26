@@ -19,6 +19,16 @@
 @import "../blocks/menu/__icon/menu__icon.scss";
 
 @import "../blocks/about/about.scss";
+@import "../blocks/about/__block/about__block.scss";
+@import "../blocks/about/__block/_item/about__block_item.scss";
+@import "../blocks/about/__paragraph/_font/about__paragraph_font_small.scss";
+@import "../blocks/about/__paragraph/_font/about__paragraph_font_big.scss";
+@import "../blocks/about/__title/about__title.scss";
+@import "../blocks/about/__image/about__image.scss";
+@import "../blocks/about/__image/_content/about__image_content_bag.scss";
+@import "../blocks/about/__block/_element/about__block_element.scss";
+@import "../blocks/about/__paragraph/_section/about__paragraph_section_bag.scss";
+@import "../blocks/about/__paragraph/_section/about__paragraph_section_suite.scss";
 
 @import "../blocks/looks/looks.scss";
 @import "../blocks/looks/__block/looks__block.scss";
