@@ -10,4 +10,7 @@
   // left: 20px;
   padding: 0;
   cursor: pointer;
+  &:hover {
+    background-image: url(../images/menu-hover.svg);
+  }
 }

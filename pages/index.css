@@ -441,6 +441,9 @@ template {
   padding: 0;
   cursor: pointer;
 }
+.menu__button:hover {
+  background-image: url(../images/menu-hover.svg);
+}
 
 .about {
   margin-bottom: 80px;
@@ -705,6 +708,12 @@ template {
   text-transform: uppercase;
   color: #0a0a0a;
 }
+.form__button-submit:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 534px) {
   .form__button-submit {
@@ -857,6 +866,9 @@ template {
   left: 20px;
   padding: 0;
   cursor: pointer;
+}
+.popup__button-close:hover {
+  background-image: url(../images/close-hover.svg);
 }
 
 @media screen and (max-width: 320px) {

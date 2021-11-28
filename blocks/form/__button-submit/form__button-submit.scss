@@ -12,6 +12,13 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: $primaryColor;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    color: $secondaryColor;
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 534px) {
