@@ -48,3 +48,11 @@
 @import "../blocks/form/__context/form__context.scss";
 @import "../blocks/footer/__subtitle/footer__subtitle.scss";
 @import "../blocks/form/__checkbox/form__checkbox.scss";
+
+@import "../blocks/popup/popup.scss";
+@import "../blocks/popup/__container/popup__container.scss";
+@import "../blocks/popup/_opened/popup_opened.scss";
+@import "../blocks/popup/__list/popup__list.scss";
+@import "../blocks/popup/__button-close/popup__button-close.scss";
+@import "../blocks/popup/__menu/popup__menu.scss";
+@import "../blocks/popup/__list/_item/popup__list_item.scss";
