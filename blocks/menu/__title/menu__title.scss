@@ -7,3 +7,10 @@
   color: $primaryColor;
   margin: 0 0 0 20px;
 }
+
+@media screen and (max-width: 320px) {
+  .menu__title {
+    font-size: 14px;
+    line-height: $baseLineHeight * 5px;
+  }
+}

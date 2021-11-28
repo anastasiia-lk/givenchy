@@ -2,23 +2,10 @@
   margin-top: 20px;
   display: flex;
   align-items: center;
+}
 
-  // &__title {
-  //   margin-left: 20px;
-  // }
-
-  // &__icon {
-  //   width: $baseMenuIconSize * 1px;
-  //   height: $baseMenuIconSize * 1px;
-  // }
-
-  // &__title {
-  //   font-weight: $fontWeightMedium;
-  //   font-size: $baseFontSize * 1px;
-  //   line-height: $baseLineHeight * 6px;
-  //   letter-spacing: 0.02em;
-  //   text-transform: uppercase;
-  //   color: $primaryColor;
-  //   margin: 0 0 0 20px;
-  // }
+@media screen and (max-width: 468px) {
+  .header__wrapper {
+    margin-top: 16px;
+  }
 }
